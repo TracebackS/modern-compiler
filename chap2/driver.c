@@ -24,8 +24,8 @@ int main(int argc, char **argv)
 	int tok;
 	if (argc != 2)
 	{
-		fprintf(stderr, "usage: a.out filename\n");
-		exit(1);
+		fprintf(stderr, "usage: %s filename\n", argv[0]);
+		return 1;
 	}
 	fname = argv[1];
 	EM_reset(fname);
