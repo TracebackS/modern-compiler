@@ -22,7 +22,7 @@ void adjust(void)
 
 %}
 
-%x INITIAL COMMENT STRING
+%x COMMENT STR
 
 %%
 
@@ -79,7 +79,7 @@ void adjust(void)
 }
 
 
-<STRING>
+<STR>
 {}
 
 <COMMENT>
