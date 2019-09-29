@@ -7,5 +7,6 @@
 int main()
 {
   printexpr(maxargs(prog()), "%d");
+  interp(prog());
   return 0;
 }
