@@ -13,5 +13,5 @@ add_executable(${CHAP}
 		tokens.h
 		util.h
 		util.c)
-include_directories(${CHAP} ${CMAKE_CURRENT_SOURCE_DIR})
+include_directories(${CMAKE_CURRENT_SOURCE_DIR})
 target_sources(${CHAP} PRIVATE ${CMAKE_CURRENT_BINARY_DIR}/lex.yy.c)

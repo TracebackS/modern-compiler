@@ -1,9 +1,9 @@
 #pragma once
 
 typedef union {
-	int pos;
-	int ival;
-	string sval;
+  int pos;
+  int ival;
+  string sval;
 } YYSTYPE;
 extern YYSTYPE yylval;
 
