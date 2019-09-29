@@ -1,3 +1,5 @@
+#pragma once
+
 /*
  * color.h - Data structures and function prototypes for coloring algorithm
  *             to determine register allocation.

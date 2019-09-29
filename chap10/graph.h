@@ -1,3 +1,5 @@
+#pragma once
+
 /*
  * graph.h - Abstract Data Type (ADT) for directed graphs
  */

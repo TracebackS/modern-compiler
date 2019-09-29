@@ -1,3 +1,5 @@
+#pragma once
+
 typedef union {
 	int pos;
 	int ival;

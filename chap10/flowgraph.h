@@ -1,3 +1,5 @@
+#pragma once
+
 /*
  * flowgraph.h - Function prototypes to represent control flow graphs.
  */

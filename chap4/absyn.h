@@ -1,3 +1,5 @@
+#pragma once
+
 /*
  * absyn.h - Abstract Syntax Header (Chapter 4)
  *

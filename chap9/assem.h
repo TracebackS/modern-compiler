@@ -1,3 +1,5 @@
+#pragma once
+
 /*
  * assem.h - Function prototypes to translate to Assem-instructions
  *             using Maximal Munch.
